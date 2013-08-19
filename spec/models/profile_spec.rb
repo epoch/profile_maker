@@ -13,4 +13,11 @@ describe Profile do
     end
 
   end
+
+  describe "#to_s" do
+
+    it "returns full name" do
+      profile.to_s.should == 'John Doe'
+    end
+  end
 end
